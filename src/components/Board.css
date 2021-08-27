@@ -1,0 +1,10 @@
+.Board {
+    width: 95%;
+    max-width: 875px;
+    height: 90%;
+    max-height: 900px;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+}
